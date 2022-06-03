@@ -63,7 +63,9 @@ function App() {
       <h3>{log?msgLogin():msgLogoff()}</h3>
 
       <button onClick={()=>setLog(!log)}>
+
         {log?'Logoff':'Login'}
+      
       </button>
       
       <br/>
